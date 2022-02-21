@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MedianTest {
+
     @Test
     public void testIntMedian() {
         float result = Median.median(new int[]{5, 5, 5, 100, 5, 5, 5, 5});
